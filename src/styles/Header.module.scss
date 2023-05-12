@@ -1,0 +1,198 @@
+.Header {
+  width: 1920px;
+  height: 1000px;
+  margin: auto;
+  background-image: url("../img/HeaderCar1.png");
+
+  nav {
+    display: flex;
+    padding-left: 312px;
+    padding-right: 312px;
+    justify-content: space-between;
+    color: white;
+    padding-top: 40px;
+
+    ul {
+      list-style: none;
+      flex-direction: row;
+      display: flex;
+      font-family: "ReformaGroteskMediumC";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 120%;
+      text-align: center;
+      letter-spacing: 0.03em;
+      cursor: pointer;
+
+      .nav_recall {
+        a {
+          color: white;
+        }
+      }
+
+      .nav_recall:not(:last-child) {
+        padding-right: 40px;
+      }
+    }
+
+    button {
+      cursor: pointer;
+    }
+  }
+
+  .mainContent {
+    padding-right: 718px;
+    padding-left: 718px;
+    padding-top: 168px;
+    color: white;
+
+    h1 {
+      height: 188px;
+      margin: auto;
+      font-family: "ReformaGroteskBoldC";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 90px;
+      line-height: 100%;
+      text-align: center;
+      color: #db3138;
+
+      &::after {
+        content: url("../img/dotted.svg");
+        width: 150px;
+      }
+    }
+
+    p {
+      width: 437px;
+      font-family: "ReformaGroteskMediumC";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 120%;
+      text-align: center;
+      margin: auto;
+    }
+
+    .CustomBtn {
+      font-family: "ReformaGroteskDemiC";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 140%;
+      height: 61px;
+      padding-left: 170px;
+      padding-right: 170px;
+      padding-top: 40px;
+    }
+  }
+
+  .Headerfooter {
+    border: 1px solid #fff;
+    display: flex;
+    color: white;
+    border-right: none;
+    border-left: none;
+    margin-top: 103px;
+
+    .Headerfooter_contet1 {
+      border-right: 1px solid #898989;
+      width: 640px;
+
+      h3 {
+        font-family: "ReformaGroteskDemiC";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 140%;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #ffffff;
+        padding-top: 50px;
+        padding-bottom: 20px;
+      }
+
+      p {
+        font-family: "ReformaGroteskDemiC";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #db3138;
+        width: 430px;
+        margin: auto;
+        padding-bottom: 51px;
+      }
+    }
+
+    .Headerfooter_contet2 {
+      border-right: 1px solid #898989;
+      width: 640px;
+
+      h3 {
+        font-family: "ReformaGroteskDemiC";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 140%;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #ffffff;
+        padding-top: 50px;
+        padding-bottom: 20px;
+      }
+
+      p {
+        font-family: "ReformaGroteskDemiC";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 160%;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #db3138;
+        width: 430px;
+        margin: auto;
+      }
+    }
+
+    .Headerfooter_contet3 {
+      width: 640px;
+
+      h3 {
+        font-family: "ReformaGroteskDemiC";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 140%;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #ffffff;
+        padding-top: 50px;
+        padding-bottom: 20px;
+      }
+
+      p {
+        font-family: "ReformaGroteskDemiC";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #db3138;
+        width: 430px;
+        margin: auto;
+      }
+    }
+  }
+}
