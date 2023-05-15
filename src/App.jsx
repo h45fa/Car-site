@@ -1,15 +1,16 @@
 //components
 import BoxAbout from "./components/BoxAbout";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
-//other
-import telegram from "./img/telegram.svg";
-import youtube from "./img/youtube.svg";
-import vk from "./img/vk.svg";
-import location from "./img/location.svg";
-import phone from "./img/phone.svg";
-import mail from "./img/mail.svg";
-//styles
-import styles from "./styles/Footer.module.scss";
+
+import workcar1 from "./img/workCar1.png";
+import workcar2 from "./img/workCar2.png";
+import workcar3 from "./img/workCar3.png";
+import workcar4 from "./img/workCar4.png";
+import workcar5 from "./img/workCar5.png";
+import workcar6 from "./img/workCar6.png";
+
+import styles from "./styles/WorkCar.module.scss"
 import "./styles/reset.css";
 
 function App() {
@@ -17,50 +18,30 @@ function App() {
     <div className="App">
       <Header />
       <BoxAbout />
-      <section className={styles.footer}>
+      <section className={styles.workcar}>
+        <h3>Наши работы</h3>
         <div>
-          <h2>ответим на любой вопрос</h2>
-          <div>
-            <div className={styles.footer_content1}>
-              <input type="text" placeholder="Имя"></input>
-              <input type="text" placeholder="телефон"></input>
-            </div>
-            <div className={styles.footer_content2}>
-              <input
-                type="text"
-                placeholder="Вопрос по дизайну, тюнингу и др."
-              ></input>
-              <ul>
-                <li>
-                  <a href="/">
-                    <img src={telegram} alt="soc-icon" />
-                  </a>
-                </li>
-                <li>
-                  <a href="/">
-                    <img src={youtube} alt="soc-icon" />
-                  </a>
-                </li>
-                <li>
-                  <a href="/">
-                    <img src={vk} alt="soc-icon" />
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className={styles.footer_content3}>
-              <button className={styles.FooterBtn}>Наши услуги</button>
-              <div>
-                <h4><img src={location} alt=""/> Eu faucibus et rutrum fringilla orci nunc</h4>
-                <ul>
-                  <li><img src={phone} alt=""/>8 (812) 123-45-67</li>
-                  <li><img src={mail} alt=""/>test@test.ru</li>
-                </ul>
-              </div>
-            </div>
-          </div>
+          <img src={workcar1} alt="alt" />
+          <img src={workcar2} alt="alt" />
+          <img src={workcar3} alt="alt" />
+          <img src={workcar4} alt="alt" />
+          <img src={workcar5} alt="alt" />
+          <img src={workcar6} alt="alt" />
+          <img src={workcar1} alt="alt" />
+          <img src={workcar2} alt="alt" />
+          <img src={workcar3} alt="alt" />
+          <img src={workcar4} alt="alt" />
+          <img src={workcar5} alt="alt" />
+          <img src={workcar6} alt="alt" />
+          <img src={workcar1} alt="alt" />
+          <img src={workcar2} alt="alt" />
+          <img src={workcar3} alt="alt" />
+          <img src={workcar4} alt="alt" />
+          <img src={workcar5} alt="alt" />
+          <img src={workcar6} alt="alt" />
         </div>
       </section>
+      <Footer />
     </div>
   );
 }

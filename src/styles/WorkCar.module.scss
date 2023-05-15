@@ -1,0 +1,38 @@
+.workcar {
+  background: #151313;
+  width: 1920px;
+  margin: auto;
+  padding-bottom: 120px;
+
+  h3 {
+    font-family: "ReformaGroteskDemiC";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #ffffff;
+    width: 636px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+    &::after {
+        content: url("../img/dotted.svg");
+        width: 150px;
+        margin: auto;
+      }
+  }
+
+  div {
+    display: grid;
+    grid-template-columns: repeat(6, 320px);
+    justify-content: center;
+
+    img {
+      height: 280px;
+    }
+  }
+}
