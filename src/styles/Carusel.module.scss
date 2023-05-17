@@ -1,0 +1,28 @@
+.Carusel {
+  background: #151313;
+  width: 1920px;
+  margin: auto;
+  padding-top: 180px;
+
+  .CaruselDiv {
+    width: 1558px;
+    height: 420px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+
+    .carsel {
+      display: flex;
+      padding-left: 60px;
+      padding-right: 60px;
+
+      div {
+        margin-right: 24px;
+
+        &:last-child {
+            margin-right: 0px;
+        }
+      }
+    }
+  }
+}
