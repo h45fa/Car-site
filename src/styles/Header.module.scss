@@ -82,10 +82,16 @@
       font-size: 18px;
       line-height: 140%;
       height: 61px;
-      padding-left: 170px;
-      padding-right: 170px;
-      padding-top: 40px;
+      margin-left: 170px;
+      margin-right: 170px;
+      margin-top: 40px;
       text-transform: uppercase;
+
+      &:hover {
+        background: red;
+        width: 163px;
+        height: 61px;
+      }
     }
   }
 
